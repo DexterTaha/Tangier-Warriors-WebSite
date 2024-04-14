@@ -125,12 +125,19 @@ body {
     font-family: 'Open Sans', sans-serif !important;
     font-size: 1rem;
     overflow-x: hidden;
-    /* background-image: url('../images/bk.png'); */
 }
 
 #home-section {
-    background-image: url("../images/Prize.jpg");
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center 100px;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    background-color: white;
 }
+
+
+
 
 ::-moz-selection {
     background: #000;
